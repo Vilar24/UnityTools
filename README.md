@@ -7,12 +7,6 @@ An asset post processor designed to remove the need for left and right variants 
 ### Usage
 Simply name your Blendshape **[BlendshapeName]LeftRight[BlendPercent]** where:
 
-**BlendshapeName** is anything you like
-**BlendPercent** is the distance you would like them to blend in the center as a percentage of the model width
+**BlendshapeName** is anything you like and **BlendPercent** is the distance you would like them to blend in the center as a percentage of the model width
 
-example:
-**EyebrowsUpLeftRight4**
-will generate:
-**EyebrowsUpLeft**
-**EyebrowsUpRight**
-with 4% of the center width blended
+example:**EyebrowsUpLeftRight4** will generate **EyebrowsUpLeft** and **EyebrowsUpRight** with 4% of the center width blended.
